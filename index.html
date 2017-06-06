@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Carreras universitarias</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('imagenes/1.1.jpg','imagenes/2.1.jpg','imagenes/3.1.jpg','imagenes/3.3.jpg','../uni1.2.png','../uni3.1.png','imagenes/uni1.2.png','imagenes/uni3.1.png')"> 
+
+<div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>App10 | Carreras Universitarias</h1>
+    </div>
+    <br>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1visor1.jpg" alt="1visor1" title="1visor1" id="wows1_0"/></li>
+		<li><img src="data1/images/1visor2.jpg" alt="1visor2" title="1visor2" id="wows1_1"/></li>
+		<li><img src="data1/images/1visor3.jpg" alt="1visor3" title="1visor3" id="wows1_2"/></li>
+		<li><img src="data1/images/1visor4.jpg" alt="1visor4" title="1visor4" id="wows1_3"/></li>
+		<li><img src="data1/images/1visor5.jpg" alt="1visor5" title="1visor5" id="wows1_4"/></li>
+		<li><img src="data1/images/1visor6.jpg" alt="1visor6" title="1visor6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/1visor7.jpg" alt="bootstrap carousel" title="1visor7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/1visor8.jpg" alt="1visor8" title="1visor8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1visor1"><span><img src="data1/tooltips/1visor1.jpg" alt="1visor1"/>1</span></a>
+		<a href="#" title="1visor2"><span><img src="data1/tooltips/1visor2.jpg" alt="1visor2"/>2</span></a>
+		<a href="#" title="1visor3"><span><img src="data1/tooltips/1visor3.jpg" alt="1visor3"/>3</span></a>
+		<a href="#" title="1visor4"><span><img src="data1/tooltips/1visor4.jpg" alt="1visor4"/>4</span></a>
+		<a href="#" title="1visor5"><span><img src="data1/tooltips/1visor5.jpg" alt="1visor5"/>5</span></a>
+		<a href="#" title="1visor6"><span><img src="data1/tooltips/1visor6.jpg" alt="1visor6"/>6</span></a>
+		<a href="#" title="1visor7"><span><img src="data1/tooltips/1visor7.jpg" alt="1visor7"/>7</span></a>
+		<a href="#" title="1visor8"><span><img src="data1/tooltips/1visor8.jpg" alt="1visor8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<br>
+    
+  <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Desarrolladores de aplicaciones de software</h2>
+   <p>Estudios de informatica</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Director de operaciones</h2>
+     <p>Estudios de administracion y gestion de empresas</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Especialistas en medicina y cirugia</h2>
+     <p>Estudios de medicina</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Universidades</h2>
+     <p>Aqui encontraras universidades especialidas en esta carrera</p>
+    </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Acerca de la aplicacion y administrador...</h2>
+     <p>Se mostrarn datos del desarrollador...</p>
+    </a>
+    </li>
+  
+  
+   </ul>
+  </div>
+  </div>
+  <br>
+  
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+
+<div data-role="page" id="pagina1" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Desarrolladores de aplicaciones de software</h1>
+    </div>
+<div data-role="main" clas="ui-content">
+      <center><h3>Detalles de la carrera</h3></center>
+      <center><font size="3">En esta carrera se estudia la creación, gestión, mantenimiento y testeo de software computacional. El software es programación lógica que todo sistema computacional necesita para funcionar y permitir al usuario disfrutar de un interfaz y las funciones que el programador realize</center></font><br>
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/1.1.jpg',1)"><img src="imagenes/1.jpg" width="281" height="180" id="Image26"></a> </div></center>
+  
+<div data-role="collapsible" data-content-theme="false">
+     <h1>Aqui encontraras 2 especialidades en la carrera</h1>
+     	<div>
+        <div data-role="main" class="ui-content" align="center">
+        <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+     <li class="ui-first-child ui-last-child">
+      <a href="https://universidades.cr/universidades/universidad-ulacit/licenciatura/ingenieria-informatica-con-enfasis-en-desarrollo-de-software" target="_self" data-role="button">
+       <h5>Desarrolo de software</h5>
+      </a>
+     </li>
+     
+     <li class="ui-first-child ui-last-child">
+      <a href="https://universidades.cr/universidades/universidad-cenfotec/tecnico/tecnologia-web-y-lopd" target="_self" data-role="button">
+       <h5>Tegnologia web</h5>
+      </a>
+     </li>
+     
+        </div>
+        </div>
+        </div>
+  </div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+     <h1>Aqui encontraras universidades especialidas en esta carrera</h1>
+     	 <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Universidades</h2>
+   <p>Encontraras universidades para cada carrera</p>
+    </a>
+    </li>
+    </ul>
+  </div>
+  </div>
+  
+  </div>
+
+ 
+        
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div> 
+
+
+<div data-role="page" id="pagina2" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Director de Operaciones</h1>
+    </div>
+     <div data-role="main" clas="ui-content"> 
+      <center><h3>¿En que consiste esta carrera?</h3></center>
+      <center>El director de operaciones de una empresa u organización se encarga, en esencia, de supervisar las operaciones diarias de la misma. El objetivo último es la satisfacción del cliente por el menor coste posible, para lo que la planificación y control de las distintas fases y operaciones resulta algo fundamental.</center>
+    <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/2.1.jpg',1)"><img src="imagenes/2.jpg" width="309" height="163" id="Image27"></a></center><p>
+    <center><h4>A continuacion te dejare un link para que tengas mas informes acerca de esta carrera</h4></center>
+    
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion...</h1>
+     	<div>
+        <div data-role="main" class="ui-content" align="center">
+        <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+     <li class="ui-first-child ui-last-child">
+      <a href="http://www.avanzaentucarrera.com/llegaraser/guia-de-profesiones/profesiones-de-logistica-y-transporte/director-de-operaciones-logisticas/" target="_self" data-role="button">
+       <h5>Mas detalles de la carrera</h5>
+      </a>
+     </li>
+     
+     <li class="ui-first-child ui-last-child">
+      <a href="http://retos-operaciones-logistica.eae.es/que-deberia-tener-un-buen-director-de-operaciones/" target="_self" data-role="button">
+       <h5>Cosas que debeiras saber de un director de operaciones</h5>
+      </a>
+     </li>
+     
+        </div>
+        </div>
+        </div>
+    
+     </div> 
+    </div>
+    
+<div data-role="collapsible" data-content-theme="false">
+     <h1>Aqui encontraras universidades especialidas en esta carrera</h1>
+     	 <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Universidades</h2>
+   <p>Encontraras universidades para cada carrera</p>
+    </a>
+    </li>
+    </ul>
+ 
+  
+  </div>
+  </div>
+  </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>   
+
+<div data-role="page" id="pagina3" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Especialistas en medicina y cirujia</h1>
+    </div>
+     <div data-role="main" clas="ui-content">
+      <center><h3>¿Que es?</h3></center>
+      <center>La Especialización en Cirugía General es una especialidad médico-quirúrgica que tiene como objetivo brindar al egresado las competencias necesarias para garantizar el tratamiento integral del paciente quirúrgico.</center>
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/3.1.jpg',1)"><img src="imagenes/3.jpg" width="284" height="159" id="Image28"></a> </center>
+  
+  <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas informacion...</h1>
+     <div>
+        <div data-role="main" class="ui-content" align="center">
+        <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+     <li class="ui-first-child ui-last-child">
+      <a href="http://redsalud.uc.cl/ucchristus/Especialidades/cirugia_general.act" target="_self" data-role="button">
+       <h5>Detalles de la carrera</h5>
+      </a>
+     </li>
+     </div>
+     </div>
+     </div>	
+     	</div><br>
+     <center><h3>Especializacion en medicina</h3></center>
+     <center><h4>Detalles de la carrera</h4></center>
+     <center>Si estudias medicina puedes escoger entre múltiples especialidades de acuerdo al sistema corporal elegido o al grupo humano con el que se trabaje; Hay especialidades como:<p>*Cardiologia<p>*Dermatologia<p>*Pediatria<p>*Etc.</p></p></p></p></center>
+     
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/3.3.jpg',1)"><img src="imagenes/3.2.jpg" width="267" height="189" id="Image29"></a></center>
+  <div data-role="collapsible" data-content-theme="false">
+     <h1>Informacion mas completa aqui...</h1>
+    <div data-role="main" class="ui-content" align="center">
+        <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+     <li class="ui-first-child ui-last-child">
+      <a href="http://www.mi-carrera.com/Medicina.html" target="_self" data-role="button">
+       <h5>Carrera en medicina</h5>
+      </a>
+     </li>
+     </div>
+     </div>
+     </div>	
+     
+<div data-role="collapsible" data-content-theme="false">
+     <h1>Aqui encontraras universidades especialidas en esta carrera</h1>
+     	 <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Universidades</h2>
+   <p>Encontraras universidades para cada carrera</p>
+    </a>
+    </li>
+    </ul>
+ 
+  
+  </div>
+  </div>
+  </div>
+  </div>
+      
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>    
+
+<div data-role="page" id="pagina4" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> Universidades</h1>
+    </div>
+    <br>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/2visor1.jpg" alt="2visor1" title="2visor1" id="wows2_0"/></li>
+		<li><img src="data2/images/uni1.png" alt="uni1" title="uni1" id="wows2_1"/></li>
+		<li><img src="data2/images/uni3.png" alt="uni3" title="uni3" id="wows2_2"/></li>
+		<li><img src="data2/images/2visor3.jpg" alt="2visor3" title="2visor3" id="wows2_3"/></li>
+		<li><img src="data2/images/uni1.2.png" alt="uni1.2" title="uni1.2" id="wows2_4"/></li>
+		<li><img src="data2/images/2visor2.jpg" alt="2visor2" title="2visor2" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/uni2.png" alt="responsive slider" title="uni2" id="wows2_6"/></a></li>
+		<li><img src="data2/images/uni3.1.png" alt="uni3.1" title="uni3.1" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="2visor1"><span><img src="data2/tooltips/2visor1.jpg" alt="2visor1"/>1</span></a>
+		<a href="#" title="uni1"><span><img src="data2/tooltips/uni1.png" alt="uni1"/>2</span></a>
+		<a href="#" title="uni3"><span><img src="data2/tooltips/uni3.png" alt="uni3"/>3</span></a>
+		<a href="#" title="2visor3"><span><img src="data2/tooltips/2visor3.jpg" alt="2visor3"/>4</span></a>
+		<a href="#" title="uni1.2"><span><img src="data2/tooltips/uni1.2.png" alt="uni1.2"/>5</span></a>
+		<a href="#" title="2visor2"><span><img src="data2/tooltips/2visor2.jpg" alt="2visor2"/>6</span></a>
+		<a href="#" title="uni2"><span><img src="data2/tooltips/uni2.png" alt="uni2"/>7</span></a>
+		<a href="#" title="uni3.1"><span><img src="data2/tooltips/uni3.1.png" alt="uni3.1"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   
+<br>
+     <div data-role="main" clas="ui-content">
+     <center><h1>Desarrolladores de aplicaciones software</h1><center>
+     Universidad Abierta y Distancia de Mexico (unADM)
+     <center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('asfsa','','imagenes/uni1.2.png',1)"><img src="imagenes/uni1.png" width="240" height="140" id="asfsa"></a>
+     </center>
+<div data-role="collapsible" data-content-theme="false">
+	
+  	<h4>Perfil de ingreso...</h4>
+     <div>
+     PERFIL DE INGRESO:<p>
+	Para un óptimo desempeño en la modalidad abierta y a distancia es deseable que el aspirante posea:<p>
+
+	-Capacidad de adaptación al auto-aprendizaje.<p>
+	-Iniciativa para la investigación.<p>
+	-Habilidad para la comunicación efectiva y el trabajo colaborativo.<p>
+	-Organización y alto sentido de compromiso.<p>
+    </div>
+    </div>
+  
+<div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Requisitos...</h4>
+     <div>
+    REQUISITOS DE INGRESO<p>	
+	Para ingresar a los estudios superiores a nivel licenciatura se requiere:<p>
+
+	-Acreditar el haber aprobado en su totalidad el plan de estudios del tipo medio superior en una institución del Sistema Educativo Nacional o equivalente.<p>
+	-Cubrir los requisitos establecidos en la convocatoria correspondiente.<p>
+  </div>
+  </div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Informacion completa</h4>
+     <div>
+        <div data-role="main" class="ui-content" align="center">
+        <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+     <li class="ui-first-child ui-last-child">
+      <a href="https://www.unadmexico.mx/portal2/index.php/licenciaturas/desarrollo-de-software" target="_self" data-role="button">
+       <h5>Universidad</h5>
+      </a>
+     </li>
+     </div>
+     </div>
+     </div>
+     </div>	<br>
+     
+     <center><h1>Director de operaciones</h1></center>
+     Universidad Panamericana
+     <center><img src="imagenes/uni2.png" width="240" height="140"></center>
+<div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Perfil de ingreso</h4>
+     <div>
+     PERFIL DE INGRESO:<p> 
+	Un aspirante a la Especialidad en Dirección de Operaciones debe ser egresado o tener experiencia en las siguientes áreas:<p>
+	Ingeniería<p>
+	Económico - Administrativo<p>
+	Áreas afines<p>
+    
+  </div>
+  </div>
+  
+<div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Perfil de Egreso</h4>
+     <div> 
+	PERFIL DE EGRESO: <p>
+	-Un egresado de la Especialidad en Dirección de Operaciones es capaz de:<p>
+	-Tener una visión integral para la consolidación estratégica de la empresa.<p>
+	-Identificar la relación entre sus eslabones para combinar aspectos técnicos y humanos desde una perspectiva individual y global.<p>
+	-Innovar en el diseño, planeación, operación, control y mejora sustentable de las organizaciones.<p>
+	-Ejecutar exitosamente planes estratégicos, tácticos y operativos, comprendiendo las relaciones personales de grupos con metas en común.<p>
+	-Resolver de forma ética situaciones de factor humano.
+    
+  </div>
+  </div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Informacion completa</h4>
+     <div>
+        <div data-role="main" class="ui-content" align="center">
+        <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+     <li class="ui-first-child ui-last-child">
+      <a href="http://www.up.edu.mx/es/posgrado/mex/especialidad-en-direccion-de-operaciones" target="_self" data-role="button">
+       <h5>Universidad</h5>
+      </a>
+     </li>
+     </div>
+     </div>
+     </div>
+     </div>	<br>
+     
+<center><h1>Especialistas en medicina y cirugia</h1></center>
+     Universidad de Monterrey (UDEM)   
+     <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sdfgsdgghkllñ','','imagenes/uni3.1.png',1)"><img src="imagenes/uni3.png" width="388" height="130" id="sdfgsdgghkllñ"></a></center>
+<div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Perfil de Ingreso</h4>
+     <div> 
+	PERFIL DE INGRESO: <p>
+	El aspirante a ingresar a la Especialidad en Cirugía general deberá poseer el siguiente perfil:<p>
+    	CONOCIMIENTOS:<p>
+
+	-El médico la especialidad en Cirugía General debe tener un amplio sustento de conocimientos básicos que le permitan adquirir aquellos relacionados con la Especialidad<p>
+	-Amplios conocimientos de la metodología científica y el método epidemiológico<p>
+   HABILIDADES:<p>
+    -Procedimientos diagnósticos y terapéuticos en medicina general<p>
+	-Destrezas técnicas quirúrgicas básicas de la Medicina<p>
+    
+    ACTITUDES:<p>
+   -Calidez y disponibilidad de atención al paciente y su familia<p>
+	-Capacidad de adaptación a la disciplina hospitalaria, poseer una actitud positiva frente a las exigencias del estudio y una estructura mental sana<p>
+	-Tener disciplina, orden y puntualidad<p>
+    
+  </div>
+  </div>
+  
+<div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Duracion de la carrera:</h4>
+     <div> 
+	- 4 años<p>
+
+  </div>
+  </div>
+  
+   <div data-role="collapsible" data-content-theme="false">
+  
+  <h4>Informacion completa</h4>
+     <div>
+        <div data-role="main" class="ui-content" align="center">
+        <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+     <li class="ui-first-child ui-last-child">
+      <a href="http://www.udem.edu.mx/Esp/Posgrados/Ciencias-de-la-Salud/Especialidades-Medicas/Pages/Especialidades/Cirugia-General.aspx" target="_self" data-role="button">
+       <h5>Universidad</h5>
+      </a>
+     </li>
+     </div>
+     </div>
+     </div>
+     </div>
+     
+    
+ </div>      
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+
+<div data-role="page" id="pagina5" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ 
+    <h1> Acerca de...</h1>
+ </div>
+  
+     <div data-role="main" clas="ui-content">
+     <center><h2>Datos del desarrollador de la pag.</h2></center><p>
+     <center><h3>°Aleks Joshua Aguilar Lopez°</h3></center><p>
+     <center><h3>°Docente: Jose Antonio Gomez Hernandez°</h3></center><p>
+     <center><h3>°CBTis No.16 | DAM (Desarrolla Aplicaciones Mobiles)°</h3></center><p>
+     <center><h3>°Aplicacion Numero 10 | Carreras Universitarias°</h3></center>
+     <center><h3>°Fecha de entrega:06/06/17°</h3></center>
+     <center><img src="res/android/mdpi.png" width="300" height="200"></center>
+     
+          </div>  
+                
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Aleks Joshua Aguilar López</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+ </div>
+</div>
+</div>
+</div>
+	
+
+</body>
+</html>
